@@ -1,0 +1,31 @@
+{
+  "name": "platzi-travel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": ""
+  },
+  "author": "Raquel Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "@vituum/vite-plugin-concat": "^1.1.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "sass": "^1.69.4",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.4.5",
+    "vite": "^4.5.3",
+    "vite-plugin-html-inject": "^1.1.2",
+    "vite-plugin-image-optimizer": "^1.1.8"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "vite-plugin-html": "^3.2.2"
+  },
+  "description": ""
+}
